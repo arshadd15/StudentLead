@@ -26,14 +26,17 @@ The main goal of this project is to provide a seamless way to track potential st
 - **UI Components:** React Native Safe Area Context
 
 ## Project Structure
-
 src/
+
     components/
-        Card.tsx # Displays individual student info with Edit and Delete icons
-        Form.tsx # Reusable form component for Adding and Editing students
-    contexts/
+        Card.tsx         # Displays individual student info with Edit and Delete icons
+        Form.tsx         # Reusable form component for Adding and Editing students
+
+    context/
         StudentContext.tsx # Handles Global State and AsyncStorage logic
+    
     screens/
-        AddNewLead.tsx # The wrapper screen that holds the Form
-        ListScreen.tsx # The main screen displaying the FlatList of students
-App.tsx # Main entry point and Navigation setup
+        AddNewLead.tsx   # The wrapper screen that holds the Form
+        ListScreen.tsx   # The main screen displaying the FlatList of students
+    
+    App.tsx              # Main entry point and Navigation setup
